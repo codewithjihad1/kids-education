@@ -15,15 +15,62 @@ html {
 
 /* shared styled */
 .container {
-    max-width: 1200px;
+    max-width: 1160px;
     margin: 0 auto;
+    padding: 18px 0;
 }
 
 
 /* Header section css */
-#header .container {
+.logo a {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 62px;
+}
+.logo a span  {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 700;
+}
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+}
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li a {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.contact-btn button {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    background: orange;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border-radius: 12px;
+}
+.navbar .home {
+    color: Orange;
+}
+.navbar .about {
+    color: #01ACFD;
+}
+.navbar .faculties {
+    color: #05D4DF;
+}
+.navbar .admission {
+    color: #5D58EF;
 }
