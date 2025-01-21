@@ -22,6 +22,9 @@ body {
 img {
     width: 100%;
 }
+ul {
+    list-style: none;
+}
 
 /* shared styled */
 .container {
@@ -309,4 +312,62 @@ img {
 }
 #stories .primary-btn {
     text-align: center;
+}
+
+
+/*  Footer section styles */
+#footer {
+    background: #01ACFD;
+    padding: 120px 0 170px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-text {
+    width: 40%;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.footer-logo img {
+    width: 80px;
+}
+.footer-logo span {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 2.5rem;
+}
+.footer-text p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5rem;
+}
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-links ul li {
+    margin-bottom: 20px;
+}
+.footer-links ul a {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+.social-icons ul {
+    display: flex;
+    gap: 1rem;
+}
+.social-icons ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
 }
