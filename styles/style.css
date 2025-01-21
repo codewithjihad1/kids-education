@@ -129,7 +129,10 @@ ul {
 .navbar .admission {
     color: #5D58EF;
 }
-
+.menu-bar-icon {
+    display: none;
+    font-size: 2rem;
+}
 
 /*  Hero section styles */
 #hero .container {
@@ -323,7 +326,7 @@ ul {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 35px;
 }
 .footer-text {
     width: 40%;
@@ -370,4 +373,53 @@ ul {
     width: 40px;
     height: 40px;
     border-radius: 5px;
+}
+
+
+
+/*  Responsive for Mobile Device    */
+@media  screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+    .md-hide {
+        display: none !important;
+    }
+    .md-active {
+        display: block !important;
+    }
+    .container {
+        padding: 20px !important;
+    }
+    #header {
+        border-bottom: 1px solid orange;
+    }
+    #hero .container {
+        flex-direction: column-reverse;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .curriculum-content {
+        flex-direction: column;
+    }
+    .stories-content {
+        grid-template-columns: 1fr;
+    }
+    .stories-card-img span {
+        padding: 5px 10px;
+        left: 16px;
+        bottom: -8px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-text {
+        width: 100%;
+    }
 }
