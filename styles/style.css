@@ -321,7 +321,7 @@ ul {
 /*  Footer section styles */
 #footer {
     background: #01ACFD;
-    padding: 120px 0 170px;
+    padding: 120px 0;
 }
 .footer-content {
     display: flex;
@@ -415,6 +415,9 @@ ul {
         padding: 5px 10px;
         left: 16px;
         bottom: -8px;
+    }
+    #footer {
+        padding: 80px 0;
     }
     .footer-content {
         flex-direction: column;
